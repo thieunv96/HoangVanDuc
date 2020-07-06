@@ -160,7 +160,7 @@ def Tshirt_class():
 def Short_Class():
     quan_dui = glob.glob(r"anh so sanh\quan\quan dui\*.jpg")
     quan_dai = glob.glob(r"anh so sanh\quan\quan dai\*.jpg")
-    # ao coc label = 0, so mi = 1, vay = 2
+    # quan dui labe = 0, quan dai label = 1
     x = []
     y = []
     print("[INFO] Load data  de so sanh...")
